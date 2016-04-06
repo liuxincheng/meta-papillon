@@ -1,0 +1,66 @@
+This README file contains information on the contents of the
+papillon layer.
+
+Please see the corresponding sections below for details.
+
+
+Dependencies
+============
+
+This layer depends on:
+
+  URI: git://git.openembedded.org/bitbake
+  branch: master
+
+  URI: git://git.yoctoproject.org/yocto
+  layers: yocto
+  branch: fido
+
+  URI: git://git.yoctoproject.org/raspberrypi
+  layers: raspberrypi
+  branch: fido
+
+  URI: git://git.openembedded.org/meta-openembedded.git
+  layers: oe
+  branch: fido
+
+Patches
+=======
+
+Please submit any patches against the papillon layer to the maintainer:
+
+Maintainer: liuxincheng <liuxincheng315@gmail.com>
+
+
+Table of Contents
+=================
+
+  I. Adding the papillon layer to your build
+ II. Misc
+
+
+I. Adding the papillon layer to your build
+=================================================
+
+--- replace with specific instructions for the papillon layer ---
+
+In order to use this layer, you need to make the build system aware of
+it.
+
+Assuming the papillon layer exists at the top-level of your
+yocto build tree, you can add it to the build system by adding the
+location of the papillon layer to bblayers.conf, along with any
+other layers needed. e.g.:
+
+  BBLAYERS ?= " \
+    /path/to/yocto/meta \
+    /path/to/yocto/meta-yocto \
+    /path/to/yocto/meta-yocto-bsp \
+    /path/to/yocto/meta-papillon \
+    "
+
+
+II. Misc
+========
+
+--- replace with specific information about the papillon layer ---
