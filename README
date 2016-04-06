@@ -20,6 +20,14 @@ This layer depends on:
   layers: raspberrypi
   branch: fido
 
+  URI: git://github.com/linux-sunxi/meta-sunxi.git
+  layers: sunxi
+  branch: dizzy
+
+  URI: git://git.yoctoproject.org/meta-fsl-arm.git
+  layers: fsl-arm
+  branch: fido
+
   URI: git://git.openembedded.org/meta-openembedded.git
   layers: oe
   branch: fido
@@ -29,7 +37,7 @@ Patches
 
 Please submit any patches against the papillon layer to the maintainer:
 
-Maintainer: liuxincheng <liuxincheng315@gmail.com>
+Maintainer: chenzilin <chenzilin115@gmail.com>
 
 
 Table of Contents

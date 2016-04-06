@@ -1,3 +1,4 @@
+
 PREFERRED_PROVIDER_virtual/xserver = "xserver-xorg"
 PREFERRED_PROVIDER_virtual/egl = "vc-graphics-hardfp"
 PREFERRED_PROVIDER_virtual/libgles2 = "vc-graphics-hardfp"
