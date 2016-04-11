@@ -2,7 +2,7 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}:"
 PACKAGECONFIG_X11 = ""
 PACKAGECONFIG_GL = ""
 
-PACKAGECONFIG_append =  " dbus evdev widgets gles2"
+PACKAGECONFIG_append =  " dbus evdev widgets gles2 sql-sqlite"
 
 # Workarounds for getting EGL and GLES2
 SRC_URI += "file://0014-eglfs-rpi-workaround.patch \
